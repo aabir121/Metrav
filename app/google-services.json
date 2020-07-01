@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "452999244239",
+    "firebase_url": "https://metravv2.firebaseio.com",
+    "project_id": "metravv2",
+    "storage_bucket": "metravv2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:452999244239:android:ec72b6715bc27144",
+        "android_client_info": {
+          "package_name": "com.example.aabir.metrav"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "452999244239-mrqkltui80iv3ec6mvbvir3ki9sorh9a.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.aabir.metrav",
+            "certificate_hash": "2603556c46506139e052970354b2cca2381a9c74"
+          }
+        },
+        {
+          "client_id": "452999244239-phfrq6pk7gdb6jr54r8fgii3qcqajhi3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC3xz13J5rKd-58f-Zzfg18qFJxYasRro4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "452999244239-phfrq6pk7gdb6jr54r8fgii3qcqajhi3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<fragment xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/map"
+    android:name="com.google.android.gms.maps.SupportMapFragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.aabir.metravv2.NavDrawerPlaceSearchActivity"
+    tools:showIn="@layout/app_bar_nav_drawer_map_with_direction">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:visibility="invisible">
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="50dp"
+        android:id="@+id/popupDirectionInfoLayout"
+        android:visibility="gone"
+        >
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_marginTop="50dp"
+
+            >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="10dp"
+                android:id="@+id/resultText"
+                android:textSize="20dp"
+                android:textColor="@color/place_autocomplete_prediction_primary_text_highlight"
+                android:visibility="invisible"
+                android:background="@android:drawable/editbox_background"
+                />
+
+
+        </ScrollView>
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left|bottom"
+        android:orientation="vertical"
+        android:padding="20dp"
+        >
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/nextDirection"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@android:drawable/ic_media_next"
+            app:backgroundTint="@android:color/black"
+            app:fabSize="normal"
+            android:visibility="invisible"
+            />
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/prevDirection"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:src="@android:drawable/ic_media_previous"
+            app:backgroundTint="@android:color/black"
+            app:fabSize="normal"
+            android:visibility="invisible"
+            />
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/alternateRoute"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@android:drawable/ic_media_play"
+            app:backgroundTint="@android:color/black"
+            android:visibility="invisible"
+            app:fabSize="normal"
+            />
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/fab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@android:drawable/ic_dialog_info"
+            app:backgroundTint="@android:color/black"
+            app:fabSize="normal"
+            android:layout_marginBottom="5dp"
+            />
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/currentLocationButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/icon_get_my_location"
+            app:backgroundTint="@color/common_google_signin_btn_text_dark"
+            app:fabSize="normal"
+
+            />
+
+
+
+
+
+
+    </LinearLayout>
+
+</fragment>
+
+
+

@@ -1,0 +1,132 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/splash_back_ground"
+    tools:context="com.example.aabir.metravv2.AppLogin">
+
+    <!-- This FrameLayout insets its children based on system windows using
+         android:fitsSystemWindows. -->
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fitsSystemWindows="true"
+        android:padding="50dp"
+        android:background="@color/black_overlay"
+        >
+
+        <LinearLayout
+            style="?metaButtonBarStyle"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="bottom|center_horizontal"
+
+
+            android:orientation="vertical"
+            tools:ignore="UselessParent">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Welcome to Metrav"
+                android:textColor="@android:color/darker_gray"
+                android:layout_gravity="center"
+                android:textSize="30dp"
+                android:drawableTop="@drawable/main_logo_alternate"
+                android:layout_marginBottom="5dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/darker_gray"
+                android:text="A complete traffic solution."
+                android:layout_gravity="center"
+                android:layout_marginBottom="30dp"
+                />
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/useridTextLayout"
+                android:textColorHint="@android:color/darker_gray"
+
+                >
+                <android.support.v7.widget.AppCompatEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/useridText"
+                    android:hint="Email or Username"
+                    android:layout_gravity="center"
+                    android:layout_margin="5dp"
+                    android:singleLine="true"
+                    android:padding="5dp"
+                    android:textColor="@android:color/white"
+
+                    android:gravity="center"
+                    android:drawableStart="@drawable/ic_person_outline"
+                    android:drawableLeft="@drawable/ic_person_outline"
+                    android:background="@drawable/custom_edittext_border_below"
+                    />
+
+
+            </android.support.design.widget.TextInputLayout>
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/passTextLayout"
+                android:textColorHint="@android:color/darker_gray"
+
+                >
+                <android.support.v7.widget.AppCompatEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/passText"
+                    android:textColor="@android:color/white"
+                    android:textColorHint="@android:color/darker_gray"
+                    android:layout_gravity="center"
+                    android:singleLine="true"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:padding="5dp"
+                    android:gravity="center"
+                    android:drawableLeft="@drawable/ic_key"
+                    android:drawableStart="@drawable/ic_key"
+                    android:background="@drawable/custom_edittext_border_below"
+                    android:hint="Password"
+                    android:password="true"
+                    android:layout_marginBottom="20dp"
+                    />
+
+
+            </android.support.design.widget.TextInputLayout>
+
+            <Button
+                android:id="@+id/loginBtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="Login to my account "
+                android:textAllCaps="false"
+
+                android:background="@drawable/custom_button_border_white"
+                android:textColor="@android:color/white"
+                />
+
+
+
+        </LinearLayout>
+            <Button
+                android:id="@+id/signupBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColorLink="@android:color/darker_gray"
+                android:textAllCaps="false"
+                android:layout_gravity="bottom|center"
+                android:gravity="center"
+                android:textColor="@android:color/darker_gray"
+                android:background="#01000000"
+                android:text="New here? Create an account." />
+
+
+    </FrameLayout>
+
+</FrameLayout>

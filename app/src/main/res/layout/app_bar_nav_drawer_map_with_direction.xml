@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context="com.example.aabir.metravv2.NavDrawerMapWithDirectionActivity">
+
+
+
+    <include layout="@layout/content_nav_drawer_map_with_direction" />
+    <android.support.design.widget.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_menu"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        app:fabSize="mini"
+        android:layout_gravity="top|left"
+
+        android:id="@+id/sideBarToggleBtn"
+        app:backgroundTint="@android:color/white"
+        />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|center"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="30dp"
+        android:gravity="center"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:background="@drawable/custom_button_border_white"
+        android:orientation="horizontal"
+        >
+
+        <android.support.design.widget.FloatingActionButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/icon_walk_state"
+            app:backgroundTint="@android:color/white"
+            app:fabSize="normal"
+            android:id="@+id/walkDirectionButton"
+            android:layout_margin="10dp"
+            />
+        <android.support.design.widget.FloatingActionButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/icon_bus_state"
+            android:layout_margin="10dp"
+            android:id="@+id/busDirectionButton"
+            app:backgroundTint="@android:color/white"
+            app:fabSize="normal"
+            />
+        <android.support.design.widget.FloatingActionButton
+            android:layout_width="wrap_content"
+            android:id="@+id/driveDirectionButton"
+            android:layout_height="wrap_content"
+            android:src="@drawable/icon_drive_state"
+            app:backgroundTint="@android:color/white"
+            app:fabSize="normal"
+            android:layout_margin="10dp"
+            />
+
+
+    </LinearLayout>
+
+
+
+</android.support.design.widget.CoordinatorLayout>

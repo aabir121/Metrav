@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context="com.example.aabir.metravv2.NavDrawerPlaceSearchActivity">
+
+
+    <include layout="@layout/content_nav_drawer_place_search"
+        android:id="@+id/include" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_weight=".15"
+        android:orientation="horizontal"
+        android:layout_margin="10dp"
+        >
+        <android.support.design.widget.FloatingActionButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_menu"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="5dp"
+            android:id="@+id/sideBarToggleBtn"
+            app:backgroundTint="@android:color/white"
+            />
+        <AutoCompleteTextView
+            android:id="@+id/autocomplete_places_source_place_search_activity"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="4"
+            android:layout_gravity="center_horizontal"
+            android:padding="10dp"
+            android:background="@drawable/custom_button_border_white"
+android:singleLine="true"
+            android:textColor="@android:color/white"
+            android:textSize="15dp"
+            android:hint="Enter Source"
+            android:textColorHint="@android:color/white"
+            />
+
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|right"
+        android:orientation="vertical"
+        android:layout_marginTop="70dp"
+        android:layout_marginRight="10dp"
+        >
+        <android.support.design.widget.FloatingActionButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:id="@+id/placeTypeSelectBtn"
+            app:backgroundTint="@android:color/white"
+            android:src="@drawable/ic_local_hospital"
+            />
+        <android.support.design.widget.FloatingActionButton
+            android:layout_width="wrap_content"
+            android:layout_gravity="right|top"
+
+            android:layout_marginBottom="10dp"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/icon_get_my_location"
+
+            app:backgroundTint="@color/common_google_signin_btn_text_dark"
+            android:layout_height="wrap_content"
+            android:id="@+id/current_location_search_button_place_search_activity"
+            />
+
+
+    </LinearLayout>
+
+    <com.jesusm.holocircleseekbar.lib.HoloCircleSeekBar
+        android:id="@+id/picker"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        app:max="2000"
+
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="0dp"
+
+        app:pointer_color="#000000"
+        app:pointer_halo_color="#000000"
+        app:pointer_size="12dp"
+        app:text_color="#000000"
+        app:text_size="20sp"
+        android:textAlignment="center"
+        app:wheel_active_color="#000000"
+        app:wheel_unactive_color="#50000000"
+        app:layout_anchor="@+id/include" />
+    <ImageButton
+        android:layout_width="70dp"
+        android:visibility="invisible"
+        android:layout_height="70dp"
+        android:src="@drawable/ic_arrow_circle_o_up"
+        android:id="@+id/popupListLayoutBtn"
+        android:layout_gravity="left|bottom"
+        android:backgroundTint="#01000000"
+        android:rotation="60"
+        />
+
+</android.support.design.widget.CoordinatorLayout>

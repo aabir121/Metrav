@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:layout_height="match_parent"
+        android:paddingTop="10dp"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="?android:attr/expandableListPreferredChildPaddingLeft"
+            android:paddingRight="10dp"
+            android:textSize="15dp"
+            android:text="Police"
+
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:id="@+id/emergencyMainNameText"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="?android:attr/expandableListPreferredChildPaddingLeft"
+            android:paddingRight="10dp"
+            android:textSize="15dp"
+            android:text="12345678"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:id="@+id/emergencyMainNumberText"
+            />
+    </LinearLayout>
+
+
+</LinearLayout>

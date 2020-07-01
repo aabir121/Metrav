@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single"
+        android:id="@+id/nav_menu_top"
+        >
+        <item
+            android:id="@+id/get_direction_screen"
+            android:icon="@drawable/ic_directions"
+            android:title="@string/nav_drawer_direction_screen"
+            />
+        <item
+            android:id="@+id/find_place_screen"
+            android:icon="@drawable/icon_find_place"
+            android:title="@string/nav_drawer_find_places" />
+        <item
+            android:id="@+id/nav_traffic_window"
+            android:icon="@drawable/ic_traffic_green"
+            android:title="@string/nav_drawer_traffic" />
+        <item
+            android:id="@+id/nav_share_location"
+            android:icon="@android:drawable/ic_menu_share"
+            android:title="@string/nav_drawer_share_location" />
+        <item
+            android:id="@+id/nav_emergency_police"
+            android:icon="@drawable/ic_police"
+            android:title="@string/nav_drawer_emergency_service"
+            />
+        <item
+            android:id="@+id/nav_bus_offline"
+            android:icon="@drawable/nav_bus"
+            android:title="@string/nav_drawer_bus_routes"
+            />
+        <item
+            android:id="@+id/nav_call_uber"
+            android:title="Uber"
+            android:icon="@drawable/ic_uber"
+            />
+        <item
+            android:id="@+id/nav_call_pathao"
+            android:title="Pathaao"
+            android:icon="@drawable/ic_pathao"
+            />
+    </group>
+
+    <group android:title="Others"
+        android:id="@+id/nav_menu_bottom"
+        android:checkableBehavior="none"
+        >
+            <item
+                android:id="@+id/nav_settings"
+                android:icon="@drawable/ic_menu_manage"
+                android:title="@string/nav_drawer_settings"
+
+                />
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/ic_logout"
+                android:title="@string/nav_drawer_logout" />
+
+    </group>
+
+</menu>

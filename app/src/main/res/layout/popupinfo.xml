@@ -1,0 +1,71 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10sp"
+    android:gravity="center"
+    android:background="@drawable/custom_transparent_back"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/traffic_update_title_string"
+        android:textSize="20dp"
+
+        android:layout_margin="15dp"
+        android:textColor="@android:color/black"
+        />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Low \nTraffic"
+            android:layout_margin="5dp"
+            android:padding="5dp"
+            android:id="@+id/greenTrafficBtn"
+            android:background="@drawable/custom_traffic_button_back"
+            android:drawableTop="@drawable/ic_traffic_green"
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:padding="5dp"
+            android:id="@+id/yellowTrafficBtn"
+            android:background="@drawable/custom_traffic_button_back"
+            android:text="Medium \nTraffic"
+            android:drawableTop="@drawable/ic_traffic_yellow"
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="Heavy \nTraffic"
+            android:id="@+id/redTrafficBtn"
+            android:layout_margin="5dp"
+            android:background="@drawable/custom_traffic_button_back"
+            android:drawableTop="@drawable/ic_traffic_red"
+            />
+
+
+    </LinearLayout>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@android:color/holo_green_dark"
+        android:text="Submit"
+        android:layout_margin="10dp"
+        android:padding="5dp"
+        android:id="@+id/submitTrafficBtn"
+        android:background="@drawable/custom_traffic_button_back"
+        android:textColor="@android:color/white"
+        />
+
+</LinearLayout>

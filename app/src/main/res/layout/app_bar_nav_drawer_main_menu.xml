@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+        tools:context="com.example.aabir.metravv2.NavDrawerMainMenuActivity">
+
+
+
+        <include layout="@layout/content_nav_drawer_main_menu" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="top"
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                android:layout_margin="10dp"
+                >
+                <android.support.design.widget.FloatingActionButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_menu"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginTop="5dp"
+                    app:fabSize="mini"
+                    android:id="@+id/sideBarToggleBtn"
+                    app:backgroundTint="@android:color/white"
+                    />
+                <AutoCompleteTextView
+                    android:id="@+id/autocomplete_places_source"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="4"
+                    android:layout_gravity="center_horizontal"
+                    android:background="@drawable/custom_button_border_white"
+                    android:textColor="@android:color/white"
+                    android:singleLine="true"
+                    android:textSize="15dp"
+                    android:hint="@string/source_box_string"
+                    android:padding="10dp"
+                    android:textColorHint="@android:color/white"
+                    />
+                <Spinner
+                    android:layout_width="0dp"
+                    android:layout_weight="0.5"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/srcSpinner"
+                    android:layout_marginTop="10dp"
+                    >
+
+                </Spinner>
+            </LinearLayout>
+
+            <AutoCompleteTextView
+                android:id="@+id/autocomplete_places_dest"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/custom_button_border_white"
+
+                android:textColor="@android:color/white"
+                android:textSize="15dp"
+                android:singleLine="true"
+                android:padding="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:hint="@string/dest_box_string"
+                android:textColorHint="@android:color/white"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginBottom="30dp"
+            android:layout_marginLeft="20dp"
+            android:layout_gravity="left|bottom"
+            >
+            <android.support.design.widget.FloatingActionButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/traffic_update_button"
+                android:src="@drawable/ic_traffic"
+                app:fabSize="normal"
+                android:layout_marginBottom="10dp"
+                android:tint="@android:color/black"
+                app:backgroundTint="@android:color/white"
+                />
+
+            <android.support.design.widget.FloatingActionButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/current_location_search_button"
+                android:src="@drawable/icon_get_my_location"
+                app:fabSize="normal"
+                app:backgroundTint="@android:color/white"
+                />
+
+
+        </LinearLayout>
+
+
+
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="25dp"
+            android:padding="10dp"
+            android:layout_gravity="center|bottom"
+            android:id="@+id/getDirectionButton1"
+            android:background="@drawable/custom_button_back"
+            android:drawableLeft="@drawable/ic_get_directions_btn"
+            android:backgroundTint="@android:color/white"
+            android:text="@string/get_directions_button"
+            />
+
+
+</android.support.design.widget.CoordinatorLayout>

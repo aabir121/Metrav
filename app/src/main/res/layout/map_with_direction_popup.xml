@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+   android:background="@drawable/custom_transparent_back"
+    android:backgroundTint="@android:color/white"
+    android:padding="10dp"
+    >
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="5dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="@string/direction_info_title"
+            android:drawableLeft="@drawable/ic_info"
+            android:textSize="20dp"
+            android:textColor="@android:color/black"
+            />
+
+        <ScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:id="@+id/resultText"
+                android:textSize="15dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textColor="@color/place_autocomplete_prediction_primary_text_highlight"
+                />
+
+
+        </ScrollView>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#43A047"
+
+            android:background="@drawable/custom_button_back"
+            android:text="Okay"
+            android:id="@+id/directionPopupOkBtn"
+            android:textColor="@android:color/black"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>

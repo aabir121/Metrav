@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="Language">
+        <item name="Bangla">বাংলা</item>
+        <item name="English">English (UK)</item>
+    </string-array>
+    <string-array name="LanguageValues">
+        <item name="Bangla">বাংলা</item>
+        <item name="English">English (UK)</item>
+    </string-array>
+    <string-array name="MapTypes">
+        <item name="Normal">Normal</item>
+        <item name="Hybrid">Hybrid</item>
+        <item name="Satelite">Satelite</item>
+        <item name="Terrain">Terrain</item>
+    </string-array>
+    <string-array name="MapTypesValues">
+        <item name="Normal">1</item>
+        <item name="Hybrid">4</item>
+        <item name="Satelite">2</item>
+        <item name="Terrain">3</item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,87 @@
+<resources>
+    <string name="app_name">Metrav</string>
+
+    <string name="title_activity_maps">Map</string>
+
+    <!-- getString(String, Object...) does not support HTML tags directly, they need to be encoded first.
+    Original string: <b>%1$s</b><br/><i>Place Id: %2$s</i><br/>Address: %3$s<br/>Phone: %4$s<br/>Website: %5$s-->
+    <string name="title_activity_demoactivity">demoactivity</string>
+    <string name="action_settings">Settings</string>
+    <string name="facebook_app_id">655730601268225</string>
+    <string name="title_activity_place_maps">Map</string>
+    <string name="title_activity_nav_drawer_map">NavDrawerMapActivity</string>
+
+    <string name="title_activity_nav_drawer_main_menu">NavDrawerMainMenuActivity</string>
+    <string name="title_activity_nav_drawer_place_search">NavDrawerPlaceSearchActivity</string>
+    <string name="title_activity_nav_drawer_map_with_direction">NavDrawerMapWithDirectionActivity
+    </string>
+    <string name="title_activity_login">Sign in</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+
+    <!-- Navigation Drawer Items -->
+    <string name="nav_drawer_direction_screen">দিক নির্দেশনা</string>
+    <string name="nav_drawer_find_places">কাছে জায়গা সমূহ</string>
+    <string name="nav_drawer_traffic">ট্র্যাফিক</string>
+    <string name="nav_drawer_share_location">নিজ অবস্থান শেয়ার</string>
+    <string name="nav_drawer_emergency_service">জরূরী সুবিধাসমূহ</string>
+    <string name="nav_drawer_bus_routes">বাস রুট (অফলাইন)</string>
+    <string name="nav_drawer_settings">সেটিংস</string>
+    <string name="nav_drawer_logout">লগ আউট</string>
+
+
+
+    <!-- Get Directions Screen -->
+    <string name="source_box_string">সূচনা</string>
+    <string name="dest_box_string">গন্তব্য</string>
+    <string name="get_directions_button">দিক নির্দেশনা</string>
+    <string name="traffic_update_title_string">ট্রাফিকের অবস্থা কিরকম?</string>
+    <string name="submit_btn">সাবমিট</string>
+    <string name="traffic_status_title">ট্র্যাফিক</string>
+    <string name="traffic_status_msg">ট্র্যাফিক আপডেট সঠিকভাবে হয়েছে।</string>
+
+
+    <!-- Traffic Screen -->
+    <string name="traffic_filter_box_string">জায়গা খুঁজুন</string>
+
+
+    <!-- Find Places Screen -->
+    <string name="find_btn">খোঁজ</string>
+    <string name="errro_title">ত্রুটি!</string>
+    <string name="error_distance_zero_msg">দূরত্ব  ০ এর বেশি হতে হবে।</string>
+    <string name="ok_btn">আচ্ছা</string>
+    <string name="error_no_place_selected_msg">অনূগ্রহ করে একটি জায়গার ধরণ নিরবাচন করুন।</string>
+    <string name="place_list_title">স্থান সমূহ</string>
+    <string name="direction_prompt_title">আপনি কি এখানে যেতে ইচ্ছুক?</string>
+    <string name="yes_btn">হ্যাঁ</string>
+    <string name="marker_source_string">আপনি এখানে আছেন। </string>
+    <string name="cancel_btn">না</string>
+
+    <!-- direciton screen -->
+    <string name="bus_route_notfound_msg">কোন বাস রুট খুজে পাওয়া যায় নি।</string>
+    <string name="direction_info_title">তথ্য</string>
+    <string name="direction_info_msg_start">আমার অবস্থান হতে গন্তব্য: : </string>
+    <string name="direciton_info_distance">দূরত্ব: : </string>
+    <string name="direction_info_duration">সময় : </string>
+    <string name="direciton_error">দুঃখিত! কোন একটি সমস্যা হয়েছে। অনূগ্রহ করে আবার চেষ্টা করুন।</string>
+
+    <string name="open_location_settings">লোকেশন সেটিংস</string>
+    <string name="gps_network_not_enabled">জিপিএস সুবিধা পাওয়া যাচ্ছে না। </string>
+
+    <string name="title_activity_app_main_login">Sign in</string>
+
+    <string name="title_activity_nav_drawer_traffic_window">NavDrawerTrafficWindow</string>
+    <string name="title_activity_maps_bus_route_test">Map</string>
+
+</resources>

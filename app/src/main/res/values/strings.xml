@@ -1,0 +1,111 @@
+<resources>
+    <string name="app_name">Metrav</string>
+
+    <string name="title_activity_maps">Map</string>
+
+    <!-- getString(String, Object...) does not support HTML tags directly, they need to be encoded first.
+    Original string: <b>%1$s</b><br/><i>Place Id: %2$s</i><br/>Address: %3$s<br/>Phone: %4$s<br/>Website: %5$s-->
+    <string name="title_activity_demoactivity">demoactivity</string>
+    <string name="action_settings">Settings</string>
+    <string name="facebook_app_id">1884543961831595</string>
+    <string name="str_btn_find">Find</string>
+
+
+    <string name="title_activity_place_maps">Map</string>
+    <string name="title_activity_nav_drawer_map">NavDrawerMapActivity</string>
+
+    <string name="title_activity_nav_drawer_main_menu">NavDrawerMainMenuActivity</string>
+    <string name="title_activity_nav_drawer_place_search">NavDrawerPlaceSearchActivity</string>
+    <string name="title_activity_nav_drawer_map_with_direction">NavDrawerMapWithDirectionActivity
+    </string>
+    <string name="title_activity_login">Sign in</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="direction_error">Something went wrong. Please try again.</string>
+
+    <!-- Strings related to Settings -->
+
+    <!-- Example General settings -->
+
+    <!-- Example settings for Data & Sync -->
+
+    <!-- Example settings for Notifications -->
+
+    <string name="title_activity_app_main_login">Sign in</string>
+
+    <string name="title_activity_nav_drawer_traffic_window">NavDrawerTrafficWindow</string>
+    <string name="title_activity_maps_bus_route_test">Map</string>
+    <string name="title_activity_nav_drawer_emergency_police_contacts">
+        NavDrawerEmergencyPoliceContacts
+    </string>
+    
+    
+    
+    
+    <!-- Navigation Drawer Items -->
+    <string name="nav_drawer_direction_screen">Get Directions</string>
+    <string name="nav_drawer_find_places">Find Places</string>
+    <string name="nav_drawer_traffic">Traffic</string>
+    <string name="nav_drawer_share_location">Share Location</string>
+    <string name="nav_drawer_emergency_service">Emergency Service</string>
+    <string name="nav_drawer_bus_routes">Bus Routes (Offline)</string>
+    <string name="nav_drawer_settings">Settings</string>
+    <string name="nav_drawer_logout">Logout</string>
+
+
+
+    <!-- Get Directions Screen -->
+    <string name="source_box_string">Enter Source</string>
+    <string name="dest_box_string">Enter Destination</string>
+    <string name="get_directions_button">Get Direction</string>
+    <string name="traffic_update_title_string">What is the traffic condition?</string>
+    <string name="submit_btn">Submit</string>
+    <string name="traffic_status_title">Traffic Status</string>
+    <string name="traffic_status_msg">Traffic Updated</string>
+
+
+    <!-- Traffic Screen -->
+    <string name="traffic_filter_box_string">Search Desired Place</string>
+
+
+    <!-- Find Places Screen -->
+    <string name="find_btn">Find</string>
+    <string name="errro_title">ERROR!</string>
+    <string name="error_distance_zero_msg">Distance must be greater than 0.</string>
+    <string name="ok_btn">Okay</string>
+    <string name="error_no_place_selected_msg">Please select a specific place type.</string>
+    <string name="place_list_title">Places</string>
+    <string name="direction_prompt_title">Do you want directions to this place?</string>
+    <string name="yes_btn">Yes</string>
+    <string name="marker_source_string">Source</string>
+    <string name="cancel_btn">Cancel</string>
+
+    <!-- direciton screen -->
+    <string name="bus_route_notfound_msg">No bus route found for this distance.</string>
+    <string name="direction_info_title">Direction Information</string>
+    <string name="direction_info_msg_start">My position to destionation: </string>
+    <string name="direciton_info_distance">Distance: </string>
+    <string name="direction_info_duration">Duration: </string>
+    <string name="direciton_error">Sorry! Something went wrong. Please try again.</string>
+
+    
+    <string name="open_location_settings">Open Location Settings</string>
+    <string name="gps_network_not_enabled">GPS is not enabled.</string>
+
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="title_activity_nav_drawer_bus_offline">NavDrawerBusOffline</string>
+
+</resources>
